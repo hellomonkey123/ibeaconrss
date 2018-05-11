@@ -11,7 +11,7 @@
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 
     <uses-feature
-        android:name="android.hardware.bluetooth_le"
+        android:name="android.hardware.ibeacon_le"
         android:required="true" />
 
     <!-- To auto-complete the email text field in the login form with the user's emails -->
@@ -56,7 +56,7 @@
         android:name=".app.BlueApp"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="蓝牙防丢器"
+        android:label="ibeacon防丢器"
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:replace="android:label">
