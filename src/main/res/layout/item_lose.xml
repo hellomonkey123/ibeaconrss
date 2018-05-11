@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="16dp"
+    android:orientation="horizontal"
+    android:background="@color/ballRelease"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_weight="7"
+        android:layout_width="0dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/tv_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+    <Button
+        android:id="@+id/btn_del"
+        android:layout_width="wrap_content"
+        android:text="删除"
+        android:textColor="@color/ballRelease"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btn_loction"
+        android:layout_width="wrap_content"
+        android:text="查看位置"
+        android:textColor="@color/ballRelease"
+        android:layout_height="wrap_content" />
+</LinearLayout>
+
+</LinearLayout>
